@@ -1,0 +1,30 @@
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Verdana;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        font-size: 18px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+    
+    li:hover {
+        color: lightblue; /* Warna yang berubah saat dihover */
+    }
