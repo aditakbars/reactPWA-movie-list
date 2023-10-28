@@ -1,0 +1,30 @@
+.ProfCard {
+    margin-left: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: rgba(240, 255, 255, 0.082);
+}
+
+.photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 0;
+}
+
+#nama {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#nim {
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 5px;
+}
