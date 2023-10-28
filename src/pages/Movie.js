@@ -52,7 +52,7 @@ export default function Movie() {
                 "https://m.media-amazon.com/images/I/71lqDylcvGL.jpg",
         },
         {
-e: "Oppenheimer", id: 5,
+            title: "Oppenheimer", id: 5,
             rate: 4,
             genre: "biography, drama, history", img:
                 "https://m.media-amazon.com/images/I/71lqDylcvGL.jpg",
