@@ -5,6 +5,7 @@ import { MdGroup } from 'react-icons/md'
 import './App.css'
 import Movie from './pages/Movie'
 import Profile from './pages/Profile'
+import DetailFilm from './pages/DetailFilm';
 
 function App() {
 return (
@@ -13,9 +14,11 @@ return (
       <p id="titleGroup">Kelompok 17</p>
     </header>
     <Routes>
-      <Route path="/movie" element={<Movie />} />
-      <Route path="/profile" element={<Profile />} />
-    </Routes>
+  <Route path="/movie" element={<Movie />} />
+  <Route path="/" element={<Profile />} />
+  <Route path="/profile" element={<Profile />} />
+  <Route path="/movie/:movieId" element={<DetailFilm />} />
+</Routes>
     <footer>
       <NavLink to="/movie" className="iconWrapper">
       <HiHome className="icon" />

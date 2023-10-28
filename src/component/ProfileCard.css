@@ -1,17 +1,19 @@
+body {
+    
+}
+
+
 .ProfCard {
-    margin-left: auto;
-    margin-bottom: auto;
     display: flex;
     margin-bottom: 20px;
     padding-left: 20px;
     cursor: pointer;
-    background-color: rgba(240, 255, 255, 0.082);
 }
 
 .photo {
     width: 90px;
     height: 90px;
-    border-radius: 0;
+    border-radius: 50%;
 }
 
 #nama {

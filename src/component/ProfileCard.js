@@ -7,7 +7,7 @@ export default function ProfileCard(props) {
             <div className="description">
                 <div>
                 <p id="nama">{props.nama}</p>
-                <p id="nim">{props.nim}</p>
+                <p id="genre">genre favorit nya {props.genre}</p>
                 </div>
             </div>
         </div>
